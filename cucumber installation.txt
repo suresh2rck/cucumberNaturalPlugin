@@ -1,0 +1,207 @@
+
+
+
+
+framework  
+
+--------------------------------------------------------------
+
+
+build management tools
+
+central repository
+
+maven goals  - batch execution or jenkins - docker
+
+
+selenuium --cucumber , testng - eclipse , intellji , visual studio
+
+
+1. MAVEN-   environment varialble ->   maven_home  --C:\Program Files\Java\jdk-11.0.16.1\ 
+2. JDK -    environment varialble ->   java_home   -- C:\apache-maven-3.8.6\
+
+path  -->  C:\Program Files\Java\jdk-11.0.16.1\bin
+	     
+
+
+C:\apache-maven-3.8.6\bin
+
+3. NATURAL -   eclipse marketplace -> install new software -> 
+Natural - http://rlogiacco.github.io/Natural
+
+4. CUCUMBER PLUGIN-  eclipse marketplace -> type CUCUMBER -> and install
+
+5.add DEPENDENCIES  in POM.XML  
+
+
+cucumber-core
+cucumber-java 
+cucumber-junit  
+cucumber-jvm-deps  
+cucumber-reporting  
+gherkin 
+junit 
+mockito-all
+cobertura 
+
+
+plugin
+
+<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M5</version>
+				<configuration>
+					<includes>
+						<include>**/*Runner</include>
+					</includes>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.10.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+===================================================================================
+
+<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>1.1.5</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-jvm</artifactId>
+			<version>1.1.5</version>
+			<type>pom</type>
+		</dependency>
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>1.1.5</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sourceforge.cobertura</groupId>
+			<artifactId>cobertura</artifactId>
+			<version>2.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-jvm-deps</artifactId>
+			<version>1.0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>net.masterthought</groupId>
+			<artifactId>cucumber-reporting</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>gherkin</artifactId>
+			<version>2.12.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>2.0.2-beta</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+
+
+
+
+
+=========================================================================
+
+TESTNG
+
+ TESTNG PLUGIN-  eclipse marketplace -> type TESTNG -> and install
+
+
+
+
+http://testng.org/testng-p2-update-site/
+
+
+
+
+2.add DEPENDENCIES  in POM.XML  
+
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.0.0</version>
+    <scope>test</scope>
+</dependency>
+
+
+
+
+
+
+cypress  
+
+serentiy
+
+qtp rfp - ibm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
