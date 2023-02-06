@@ -29,8 +29,7 @@ C:\apache-maven-3.8.6\bin
 3. NATURAL -   eclipse marketplace -> install new software -> 
 Natural - http://rlogiacco.github.io/Natural
 
-4. CUCUMBER PLUGIN-  eclipse marketplace -> type CUCUMBER -> and install
-
+4.  NATURAL -   eclipse marketplace -> install new software -> add ->> Name= Natural  and location click on Archive and upload the file "cucumber-eclipse-plugin-1.0.0-SNAPSHOT"
 5.add DEPENDENCIES  in POM.XML  
 
 
